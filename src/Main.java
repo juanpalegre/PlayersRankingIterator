@@ -9,8 +9,12 @@ public class Main {
         ranking.addPlayer(new Player("Pedro", 300));
 
         //Obtenemos el ranking
+        getUpdatedRanking(ranking);
+
+    }
+
+    private static void getUpdatedRanking(PlayerRanking ranking) {
         System.out.println("Ranking de Jugadores actualizado");
         ranking.getRanking();
-
     }
 }
